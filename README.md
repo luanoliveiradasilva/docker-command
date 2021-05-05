@@ -21,4 +21,7 @@ Passo 2. Executar o comando ```docker-compose up -d```<br />
 Passo 3. Após subir a aplicação, certifique-se que os container estejam iniciado, senão, inicie manualmente no próprio docker ou executando o comando ```docker-compose up nomedocontainer```.<br />
 
 Passo 4. Para acessar o mysql do que está no docker tem que executar o comado ```docker exec -it nomedocontainerdobd bash```.<br />
->>>>>>> 438a6dc2bf7d841eaba1ad8da8e3bdf936f623aa
+
+
+### Driver de rede Bridge
+O driver de rede bridge é o primeiro driver na nossa lista. É simples de entender, simples de usar e simples de solucionar problemas, o que o torna uma boa opção de rede para os desenvolvedores e os novos no Docker. O driver bridge cria uma rede privada interna para o host para que os containers dessa rede possam se comunicar. O acesso externo é concedido pela exposição de portas a containers. O Docker protege a rede gerenciando regras que bloqueiam a conectividade entre diferentes redes Docker.
