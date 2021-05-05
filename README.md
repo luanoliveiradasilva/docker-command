@@ -15,9 +15,10 @@
 
 
 ### Criar o container
-Passo 1. Clocar o projeto com o script do docker-compose.yml<br />
-Passo 2. Executar o comando docker-compose up -d<br />
+Passo 1. Clocar o projeto com o script do ```docker-compose.yml```<br />
+Passo 2. Executar o comando ```docker-compose up -d```<br />
     Obs:Esse comando serve para executar o docker compose, permitindo baixar as imagens no docker e subir os container conforme definido do script.<br />
-Passo 3. Após subir a aplicação, certifique-se que os container estejam iniciado, senão, inicie manualmente no próprio docker ou executando o comando docker-compose up nomedocontainer.<br />
+Passo 3. Após subir a aplicação, certifique-se que os container estejam iniciado, senão, inicie manualmente no próprio docker ou executando o comando ```docker-compose up nomedocontainer```.<br />
 
-Passo 4. Para acessar o mysql do que está no docker tem que executar o comado docker exec -it nomedocontainerdobd bash.<br />
+Passo 4. Para acessar o mysql do que está no docker tem que executar o comado ```docker exec -it nomedocontainerdobd bash```.<br />
+>>>>>>> 438a6dc2bf7d841eaba1ad8da8e3bdf936f623aa
